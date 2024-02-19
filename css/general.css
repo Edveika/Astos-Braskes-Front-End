@@ -18,19 +18,36 @@ html {
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  color: #495057;
+  color: #333;
   font-size: 1.6rem;
   padding: 1.6rem 3.2rem;
   border-radius: 11px;
   font-weight: 500;
+  transition: all 500ms;
 }
 
 .btn:hover,
 .btn:active {
-  color: #dd3333;
+  color: #fa5252;
+}
+
+.btn:focus {
 }
 
 .btn-cta {
   background-color: #fa5252;
   color: #fff !important;
+}
+
+.btn-cta:hover, .btn-cta:active {
+  background-color: #c84242;
+}
+
+.btn-cta:focus {
+}
+
+.primary-heading {
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #333;
 }

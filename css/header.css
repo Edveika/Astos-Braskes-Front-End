@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.6rem 3.2rem;
+  margin-bottom: 9rem;
 }
 
 .header-navigation {
@@ -17,5 +18,4 @@
 .main-container {
   max-width: 120rem;
   margin: 0 auto;
-  background-color: red;
 }
