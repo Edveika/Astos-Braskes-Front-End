@@ -16,7 +16,7 @@ Primary color: #fa5252
 Primary color shades: #c84242
 Background color: #fff0f6
 
-Primary font color: #343a40
+Primary font color: #555
 
 */
 
@@ -27,9 +27,9 @@ Primary font color: #343a40
 }
 
 body {
-  background-color: #fff0f6;
-  color: #343a40;
-  font-family: "Roboto", sans-serif;
+
+  color: #555;
+  font-family: "Rubik", sans-serif;
 }
 
 html {
@@ -72,9 +72,19 @@ html {
   margin-bottom: 2rem;
   font-weight: 600;
   color: #333;
+  font-size: 3.6rem;
 }
 
 .main-container {
   max-width: 120rem;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: 0.5fr 0.5fr;
+  gap: 5rem;
 }

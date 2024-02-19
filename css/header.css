@@ -3,7 +3,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 1.6rem 3.2rem;
-  margin-bottom: 9rem;
+  /* padding-bottom: 9rem; */
+  background-color: #fff0f6;
 }
 
 .header-navigation {
