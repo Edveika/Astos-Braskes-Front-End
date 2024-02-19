@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff0f6;
+  color: #343a40;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  color: #495057;
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  border-radius: 11px;
+  font-weight: 500;
+}
+
+.btn:hover,
+.btn:active {
+  color: #dd3333;
+}
+
+.btn-cta {
+  background-color: #fa5252;
+  color: #fff !important;
+}
