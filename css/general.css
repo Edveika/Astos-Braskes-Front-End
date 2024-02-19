@@ -78,6 +78,7 @@ html {
 .main-container {
   max-width: 120rem;
   margin: 0 auto;
+  padding: 4.4rem 0 9.6rem 0;
 }
 
 .grid {
