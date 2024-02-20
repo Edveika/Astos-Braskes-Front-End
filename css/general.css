@@ -94,3 +94,9 @@ html {
   grid-template-columns: 0.5fr 0.5fr;
   gap: 5rem;
 }
+
+.wide-container {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 4.4rem 0 6.4rem 0;
+}

@@ -1,5 +1,7 @@
 .about-us-section {
   background-color: #fff0f6;
+  padding: 4.8rem 0 9.8rem 0;
+  margin-bottom: 4.8rem;
 }
 
 .desc {
@@ -7,6 +9,18 @@
   line-height: 1.6;
   letter-spacing: +0.5px;
   margin-bottom: 4.8rem;
+}
+
+.partners-section {
+  margin-bottom: 8rem;
+}
+
+.strawberries-section {
+  margin-bottom: 6.4rem;
+}
+
+.strawberry-sprouts-section {
+  margin-bottom: 9.6rem;
 }
 
 .partners-text {
@@ -32,12 +46,6 @@
 
 .contacts-section {
   background-color: #fff0f6;
-}
-
-.contacts-container {
-  max-width: 150rem;
-  margin: 0 auto;
-  padding: 4.4rem 0 6.4rem 0;
 }
 
 footer {
