@@ -11,7 +11,7 @@
 
 .about-text .btn-cta {
   margin-right: 1rem;
-} 
+}
 
 .partners-text {
   text-align: center;
@@ -32,4 +32,20 @@
   max-width: 120rem;
   margin: 0 auto;
   padding: 4.4rem 0 9.6rem 0;
+}
+
+.contacts-section {
+  background-color: #fff0f6;
+}
+
+.contacts-container {
+  max-width: 150rem;
+  margin: 0 auto;
+  padding: 4.4rem 0 6.4rem 0;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff0f6;
+  font-size: 1.6rem;
 }
