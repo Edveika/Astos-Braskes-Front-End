@@ -59,3 +59,35 @@ footer {
   display: flex;
   gap: 1rem;
 }
+
+.section-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-img,
+.strawberries-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  height: 50rem;
+  border-radius: 11px;
+}
+
+.strawberry-sprouts-img img {
+  width: 50rem;
+  border-radius: 11px;
+}
+
+.strawberries-img img {
+  height: 50rem;
+}
+
+.quality-desc {
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
