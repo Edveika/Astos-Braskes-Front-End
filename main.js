@@ -1,6 +1,8 @@
 // Current year for copyright in the footer
-var copyrightElement = document.getElementById("copyright-year");
-var yearObj = new Date();
-var currYear = yearObj.getFullYear();
+function updateCopyrightYear() {
+  var copyrightElement = document.getElementById('copyright-year');
+  var yearObj = new Date();
 
-copyrightElement.textContent = currYear;
+  copyrightElement.textContent = yearObj.getFullYear();
+}
+updateCopyrightYear();
