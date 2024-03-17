@@ -9,11 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <script defer src="main.js"></script>
+    <script defer src="js/main.js"></script>
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/content.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
     <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/images.css" />
     <title>Astos Braškės</title>
   </head>
   <body>
@@ -54,6 +55,7 @@
               <img
                 src="img/strawberry_field.jpg"
                 alt="Astos Bureikienės braškynas"
+                class="farm-img"
               />
             </div>
           </div>
@@ -63,10 +65,34 @@
         <div class="main-container">
           <p class="partners-text">Partneriai</p>
           <div class="partner-logos">
-            <img src="#" alt="partneris" />
-            <img src="#" alt="partneris" />
-            <img src="#" alt="partneris" />
-            <img src="#" alt="partneris" />
+            <a href="https://www.sodo.lt/" target="_blank">
+              <img
+                src="img/sodo_lt.png"
+                alt="sodo.lt partneris"
+                class="partner-logo"
+              />
+            </a>
+            <a href="https://www.ekoagros.lt/" target="_blank">
+              <img
+                src="img/ekoagros.png"
+                alt="ekoagra partneris"
+                class="partner-logo"
+              />
+            </a>
+            <a href="https://proagro.lt/" target="_blank">
+              <img
+                src="img/proagro.png"
+                alt="proagro partneris"
+                class="partner-logo"
+              />
+            </a>
+            <a href="https://laistymoiranga.lt/" target="_blank">
+              <img
+                src="img/maidina.png"
+                alt="maidina partneris"
+                class="partner-logo"
+              />
+            </a>
           </div>
         </div>
       </div>
@@ -89,8 +115,12 @@
                 <a href="#" class="btn btn-more">Plačiau</a>
               </div>
             </div>
-            <div class="strawberry-sprouts-img">
-              <img src="img/strawberry_sprouts.jpg" alt="Braškių daigai" />
+            <div class="product-img-section">
+              <img
+                src="img/strawberry_sprouts.jpg"
+                alt="Braškių daigai"
+                class="sprouts-img"
+              />
             </div>
           </div>
         </div>
@@ -98,10 +128,11 @@
       <div id="strawberries" class="strawberries-section">
         <div class="main-container">
           <div class="grid grid--2-cols">
-            <div class="strawberries-img">
+            <div class="product-img-section">
               <img
                 src="img/strawberries.jpg"
                 alt="Lietuviškos Astos braškės dėžutėse"
+                class="strawberries-img"
               />
             </div>
             <div class="section-description">
@@ -113,13 +144,15 @@
                 džiovinimui, kompotų vakavimui dėl savo tvirtumo.
               </p>
               <div>
-                <a href="#" class="btn btn-more">Plačiau</a>
+                <a href="html/strawberries.html" class="btn btn-more"
+                  >Plačiau</a
+                >
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="strawberry-sprouts-section">
+      <div class="quality-section">
         <div class="main-container">
           <div class="grid grid--2-cols">
             <div class="section-description">
@@ -140,7 +173,7 @@
                 </li>
               </ol>
             </div>
-            <div>
+            <div class="product-img-section">
               <img
                 src="img/kokybe.jpg"
                 alt="Ekoagros kokybės ženklas ant etiketės"

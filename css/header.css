@@ -4,15 +4,12 @@
   justify-content: space-between;
   padding: 1.6rem 3.2rem;
   background-color: #fff0f6;
-  position: sticky;
   height: 10rem;
+  /* position: sticky;
+  top: 0px; */
 }
 
 .header-navigation {
   display: flex;
   gap: 1rem;
-}
-
-.header-logo {
-  width: 8rem;
 }

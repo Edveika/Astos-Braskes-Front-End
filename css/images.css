@@ -1,0 +1,43 @@
+/* ------------------------ */
+/* HEADER */
+/* ------------------------ */
+.header-logo {
+  width: 8rem;
+}
+
+/* ------------------------ */
+/* HOMEPAGE */
+/* ------------------------ */
+.farm-img,
+.sprouts-img,
+.strawberries-img,
+.quality-img,
+.asta-img {
+  border-radius: 11px;
+}
+
+.farm-img {
+  height: 50rem;
+}
+
+.sprouts-img {
+  width: 50rem;
+}
+
+.strawberries-img {
+  height: 50rem;
+}
+
+.quality-img {
+  width: 50rem;
+}
+
+.asta-img {
+  height: 40rem;
+}
+
+.partner-logo {
+  height: 4rem;
+  filter: brightness(0);
+  opacity: 60%;
+}
