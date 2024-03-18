@@ -13,3 +13,16 @@
   display: flex;
   gap: 1rem;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+.mobile-nav .btn {
+  background-color: inherit;
+}
+
+.mobile-nav-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}

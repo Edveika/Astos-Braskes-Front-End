@@ -1,0 +1,158 @@
+@media (max-width: 93em) {
+  .farm-img {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 85em) {
+  .desc {
+    font-size: 1.8rem;
+  }
+
+  .list {
+    font-size: 1.8rem;
+  }
+
+  .primary-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 78em) {
+  html {
+    /* 9px / 16px = 56.25% */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 69em) {
+  .desc {
+    font-size: 1.6rem;
+  }
+
+  .list {
+    font-size: 1.6rem;
+  }
+
+  .farm-img {
+    height: 35rem;
+  }
+}
+
+@media (max-width: 65em) {
+  /* html {
+    font-size: 0.5em;
+  } */
+
+  .sprouts-img {
+    width: 45rem;
+  }
+
+  .strawberries-img {
+    height: 40rem;
+  }
+
+  .quality-img {
+    width: 45rem;
+  }
+
+  .asta-img {
+    height: 40rem;
+  }
+
+  .grid--2-cols {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 58em) {
+  .about-us-section .wide-container .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .about-us-section .wide-container .primary-heading {
+    text-align: center;
+  }
+
+  .about-img {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+
+  .farm-img {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 56em) {
+  .sprouts-img {
+    width: 35rem;
+  }
+
+  .strawberries-img {
+    height: 40rem;
+  }
+
+  .quality-img {
+    width: 35rem;
+  }
+
+  .asta-img {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 45em) {
+  .mobile-nav {
+    display: block;
+  }
+
+  .header-navigation {
+    display: none;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .primary-heading {
+    text-align: center;
+  }
+
+  #strawberries .main-container .grid .product-img-section {
+    grid-row: 2;
+  }
+
+  .btn-more-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.4rem;
+  }
+
+  .sprouts-img {
+    width: 40rem;
+  }
+
+  .strawberries-img {
+    height: 40rem;
+  }
+
+  .quality-img {
+    width: 40rem;
+  }
+
+  .asta-img {
+    height: 40rem;
+  }
+}
+
+@media (max-width: 34em) {
+  .farm-img {
+    width: 100%;
+  }
+}
