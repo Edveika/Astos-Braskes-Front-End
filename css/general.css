@@ -137,6 +137,10 @@ html {
   margin-bottom: 0.4rem;
 }
 
+.list-long li {
+  margin-bottom: 0.8rem;
+}
+
 .margin-bottom--small {
   margin-bottom: 1.2rem;
 }
