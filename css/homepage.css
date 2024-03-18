@@ -17,6 +17,19 @@
 }
 
 /* ------------------------ */
+/* PRODUCTS */
+/* ------------------------ */
+
+.products-section {
+  margin-bottom: 8rem;
+  padding: 0 3.2rem;
+}
+
+.products-section:last-child {
+  margin-bottom: 12.6rem;
+}
+
+/* ------------------------ */
 /* PARTNERS */
 /* ------------------------ */
 
@@ -85,9 +98,4 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.quality-desc {
-  margin-bottom: 1.2rem;
-  font-weight: 500;
 }
