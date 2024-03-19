@@ -32,7 +32,7 @@
 }
 
 .products-section:last-child {
-  margin-bottom: 12.6rem;
+  margin-bottom: 2rem;
 }
 
 /* ------------------------ */
@@ -98,8 +98,21 @@
 /* QUALITY */
 /* ------------------------ */
 
-.quality-section {
-  margin-bottom: 12.8rem;
+/* ------------------------ */
+/* REVIEWS */
+/* ------------------------ */
+
+.reviews-section {
+  margin-bottom: 8rem;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll;
+  scrollbar-width: thin;
 }
 
 /* ------------------------ */

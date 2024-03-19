@@ -17,11 +17,11 @@
 }
 
 .farm-img {
-  height: 50rem;
+  height: 60rem;
 }
 
 .sprouts-img {
-  width: 50rem;
+  width: 40rem;
 }
 
 .strawberries-img {
@@ -40,4 +40,8 @@
   height: 4rem;
   filter: brightness(0);
   opacity: 60%;
+}
+
+.review-img {
+  height: 8rem;
 }
