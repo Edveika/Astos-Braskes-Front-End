@@ -55,8 +55,8 @@
 
 .partner-logos {
   display: flex;
-  gap: 2.5rem;
   justify-content: center;
+  gap: 2.5rem;
 }
 
 /* ------------------------ */
@@ -65,6 +65,25 @@
 
 .strawberry-sprouts-section {
   margin-bottom: 9.6rem;
+}
+
+.sprout-close {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.sprout-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.sprout-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 /* ------------------------ */

@@ -20,7 +20,6 @@
 
 @media (max-width: 78em) {
   html {
-    /* 9px / 16px = 56.25% */
     font-size: 56.25%;
   }
 }
@@ -40,10 +39,6 @@
 }
 
 @media (max-width: 65em) {
-  /* html {
-    font-size: 0.5em;
-  } */
-
   .sprouts-img {
     width: 45rem;
   }
@@ -74,18 +69,16 @@
     text-align: center;
   }
 
-  .about-img {
-    display: flex;
-    justify-content: center;
-  }
-
   .cta-buttons {
     justify-content: center;
     margin-bottom: 4rem;
   }
 
-  .farm-img {
-    height: 40rem;
+  .about-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
   }
 }
 
