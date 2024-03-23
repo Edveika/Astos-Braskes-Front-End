@@ -71,6 +71,7 @@ html {
   transition: all 500ms;
   display: inline-block;
   background-color: inherit;
+  text-align: center;
 }
 
 .btn:hover,

@@ -42,3 +42,12 @@ document
     if (!sproutOptions.classList.contains("hidden"))
       sproutOptions.classList.add("hidden");
   });
+
+const btnMobile = document.querySelectorAll("#mobile-btn");
+for (let i = 0; i < btnMobile.length; ++i)
+  btnMobile[i].addEventListener("click", function () {
+    const container = document.getElementById("mobile-nav-container");
+
+    if (!container.classList.contains("hidden"))
+      container.classList.add("hidden");
+  });
