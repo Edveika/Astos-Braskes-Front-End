@@ -67,6 +67,7 @@
   margin-bottom: 9.6rem;
 }
 
+.mobile-close,
 .sprout-close {
   display: flex;
   justify-content: end;
