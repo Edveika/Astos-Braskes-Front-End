@@ -1,6 +1,7 @@
 @media (max-width: 93em) {
   .farm-img {
-    height: 45rem;
+    width: 90%;
+    height: auto;
   }
 }
 
@@ -31,10 +32,6 @@
 
   .list {
     font-size: 1.6rem;
-  }
-
-  .farm-img {
-    height: 35rem;
   }
 }
 
@@ -78,11 +75,8 @@
     margin-bottom: 4rem;
   }
 
-  .about-img {
-    display: flex;
+  .about-us-section .about-img {
     justify-content: center;
-    height: auto;
-    width: auto;
   }
 
   .farm-img {
@@ -161,13 +155,7 @@
   }
 }
 
-/* @media (max-width: 34em) {
-  .farm-img {
-    width: 100%;
-  }
-} */
-
-@media (max-width: 23em) {
+@media (max-width: 24em) {
   .cta-buttons {
     flex-direction: column;
   }

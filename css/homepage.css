@@ -11,6 +11,11 @@
   align-items: center;
 }
 
+.about-us-section .about-img {
+  display: flex;
+  justify-content: end;
+}
+
 .cta-buttons {
   display: flex;
   gap: 1rem;
