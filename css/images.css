@@ -21,27 +21,32 @@
 }
 
 .sprouts-img {
-  width: 40rem;
+  height: auto;
+  width: 70%;
 }
 
 .strawberries-img {
-  height: 50rem;
+  height: auto;
+  width: 70%;
 }
 
 .quality-img {
-  width: 50rem;
+  height: auto;
+  width: 85%;
 }
 
 .asta-img {
-  height: 40rem;
+  height: auto;
+  width: 60%;
 }
 
 .partner-logo {
   height: 4rem;
+  width: auto;
   filter: brightness(0);
   opacity: 60%;
 }
 
 .review-img {
-  height: 8rem;
+  height: 10vh;
 }
