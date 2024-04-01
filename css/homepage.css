@@ -1,3 +1,9 @@
+.modal-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 /* ------------------------ */
 /* ABOUT US */
 /* ------------------------ */
@@ -74,9 +80,7 @@
 
 .mobile-close,
 .sprout-close {
-  display: flex;
-  justify-content: end;
-  align-items: center;
+  margin-left: auto;
 }
 
 .sprout-options {
@@ -90,6 +94,12 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
+  margin: auto;
+}
+
+.sprout-nav .btn {
+  width: 60vw;
+  max-width: 50rem;
 }
 
 /* ------------------------ */
