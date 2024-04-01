@@ -181,8 +181,20 @@
   }
 }
 
+@media (max-width: 30em) {
+  th,
+  td {
+    font-size: 1.2rem;
+  }
+}
+
 @media (max-width: 24em) {
   .cta-buttons {
     flex-direction: column;
+  }
+
+  th,
+  td {
+    font-size: 1rem;
   }
 }
