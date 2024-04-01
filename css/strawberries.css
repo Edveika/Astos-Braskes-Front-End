@@ -13,3 +13,27 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.strawberry-section {
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 16px 24px;
+  text-align: left;
+  font-size: 1.8rem;
+}
+
+thead th {
+  width: 33%;
+  background-color: #fff0f6;
+}
