@@ -177,3 +177,26 @@ html {
   height: 2.4rem;
   width: 2.4rem;
 }
+
+.modal-nav {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mobile-close,
+.sprout-close {
+  margin-left: auto;
+}
+
+.sprout-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: auto;
+}
+
+.sprout-nav .btn {
+  width: 60vw;
+  max-width: 50rem;
+}

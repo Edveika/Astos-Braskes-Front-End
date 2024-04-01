@@ -1,9 +1,3 @@
-.modal-nav {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
 /* ------------------------ */
 /* ABOUT US */
 /* ------------------------ */
@@ -78,29 +72,12 @@
   margin-bottom: 9.6rem;
 }
 
-.mobile-close,
-.sprout-close {
-  margin-left: auto;
-}
-
 .sprout-options {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-
-.sprout-nav {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin: auto;
-}
-
-.sprout-nav .btn {
-  width: 60vw;
-  max-width: 50rem;
 }
 
 /* ------------------------ */
