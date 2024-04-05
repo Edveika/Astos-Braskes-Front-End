@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+.sprouts-container {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sprout-option {
+  width: 40%;
+}
+
+.sprout-option--nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sprout-cards {
+  display: flex;
+  gap: 1rem;
+}
+
+.sprout-card {
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card-red {
+  background-color: red;
+  color: #fff;
+}
+
+.card-green {
+  background-color: green;
+  color: #fff;
+}
