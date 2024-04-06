@@ -27,25 +27,3 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-
-.sprout-cards {
-  display: flex;
-  gap: 1rem;
-}
-
-.sprout-card {
-  padding: 0.8rem 1.6rem;
-  border-radius: 999px;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.card-red {
-  background-color: red;
-  color: #fff;
-}
-
-.card-green {
-  background-color: green;
-  color: #fff;
-}
