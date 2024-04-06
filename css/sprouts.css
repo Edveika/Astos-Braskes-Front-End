@@ -12,6 +12,12 @@ header {
   margin-bottom: 4rem;
 }
 
+.main-header {
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
+}
+
 .sprouts-container {
   margin: 0 auto;
   padding: 0 3.2rem;
