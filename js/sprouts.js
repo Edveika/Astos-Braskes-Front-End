@@ -1,16 +1,17 @@
-const navs = document.querySelectorAll(".sprout-option--nav");
+const containers = document.querySelectorAll(".sprout-option");
+containers.forEach((container, i) => {
+  const navs = document.querySelectorAll(".sprout-option--nav");
+  const sproutContent = document.querySelectorAll(".sprout-content");
 
-navs.forEach((nav) => {
-  const button = nav.querySelector(".btn-sprout");
-  const sproutContent = nav.nextElementSibling;
-
-  button.addEventListener("click", function () {
-    if (sproutContent.classList.contains("hidden")) {
-      sproutContent.classList.remove("hidden");
-      nav.querySelector("ion-icon").setAttribute("name", "chevron-up-outline");
+  container.addEventListener("click", function () {
+    if (sproutContent[i].classList.contains("hidden")) {
+      sproutContent[i].classList.remove("hidden");
+      navs[i]
+        .querySelector("ion-icon")
+        .setAttribute("name", "chevron-up-outline");
     } else {
-      sproutContent.classList.add("hidden");
-      nav
+      sproutContent[i].classList.add("hidden");
+      navs[i]
         .querySelector("ion-icon")
         .setAttribute("name", "chevron-down-outline");
     }
