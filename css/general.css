@@ -147,6 +147,10 @@ html {
   margin-bottom: 0.8rem;
 }
 
+.margin-bottom--none {
+  margin-bottom: 0;
+}
+
 .margin-bottom--small {
   margin-bottom: 1.2rem;
 }
