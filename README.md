@@ -10,11 +10,9 @@
   * About strawberries
   * Quality assurance
   * Customer reviews
-  * Contacts
-    
+  * Contacts 
 * 🍓 Strawberries page
   * Harvest season dates
-    
 * 🌱 Sprouts page
   * Early sprouts
   * Medium sprouts
