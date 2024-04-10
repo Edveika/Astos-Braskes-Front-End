@@ -1,6 +1,8 @@
 # 🍓 Astos-Braskes-Web
 
-![Screenshot 2024-04-09 at 21-12-07 Astos Bureikienės braškynas](https://github.com/Edveika/Astos-Braskes-Front-End/assets/113787144/45af6f58-d6d2-4219-aad2-3d290736e452)
+This is a simple static website with a responsive design for Astos business. It contains the most important information about strawberries and strawberry sprouts, features a simple, easy to navigate website design and is built using HTML5, CSS3 and JavaScript.
+
+**You can visit the site [here](#)**
 
 # 📚 Content
 
